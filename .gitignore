@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+vendor/
+models/
+masks/
+cartridges/
+results/
+*.aux
+*.log
+*.blg
+*.bbl

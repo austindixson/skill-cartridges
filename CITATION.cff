@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it and the Deletion Tuning paper it builds on."
+title: "Skill Cartridges: Composable, Hot-Swappable Deletion Masks for Small Language Models"
+type: software
+authors:
+  - family-names: Dixson
+    given-names: Austin
+    email: austintdixson@gmail.com
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/austindixson/skill-cartridges"
+url: "https://huggingface.co/austindixson/skill-cartridges"
+keywords:
+  - deletion tuning
+  - sparse masks
+  - language models
+  - mlx
+references:
+  - type: article
+    title: "The Surprising Effectiveness of Deleting Weights in LLM Post-Training"
+    authors:
+      - family-names: Lu
+        given-names: Jack
+      - family-names: Yang
+        given-names: Zhenbang
+      - family-names: Lasby
+        given-names: Mike
+      - family-names: Pote
+        given-names: Tejas
+      - family-names: Ioannou
+        given-names: Yani
+      - family-names: Ren
+        given-names: Mengye
+    year: 2026
+    identifiers:
+      - type: other
+        value: "arXiv:2611.10866"
+    repository-code: "https://github.com/agentic-learning-ai-lab/deleting-weights"
