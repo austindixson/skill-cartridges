@@ -119,10 +119,10 @@ Qwen3.5-9B, seed 3 & MLX 4-bit & 38 & 61 & 24 / 1 & $1.5\times10^{-6}$ & 0.6718\
 Qwen3.8-27B (run 1) & bf16 & 42 & 65 & 29 / 6 & $1.2\times10^{-4}$ & 0.5037\% \\
 Qwen3.8-27B (run 1) & MLX 4-bit & 41 & 67 & 28 / 2 & $8.7\times10^{-7}$ & 0.5037\% \\
 LFM3-1.7B & bf16 & 11 & 59 & 48 / 0 & $7.1\times10^{-15}$ & 0.713\% \\
-Qwen2.5-7B (published, SDFT) & MLX bf16 & 41 & 68 & -- & -- & 0.783\% \\
+Qwen2.5-7B (published) & MLX bf16 & 41 & 68 & -- & -- & 0.783\% \\
 \bottomrule
 \end{tabular}
-\caption{ToolAlpaca results (97 items). ``Deleted'' is the share of gate-projection weights the mask removes. 4-bit 9B rows are the nearest-zero form; requantize scores are in \S\ref{sec:quant}. The 4-bit 9B $p$ values are exact two-sided McNemar tests on the listed discordant pairs. A second 400-step 27B run deleted 0.6049\% and also scored 65; we use run 1 because it reaches the same score with fewer deletions (28,730,353 of 5,704,253,440 weights, 57.2\,MB).}
+\caption{ToolAlpaca results (97 items). The published 7B mask was trained with SDFT; all other rows were trained by us with SFT. ``Deleted'' is the share of gate-projection weights the mask removes. 4-bit 9B rows are the nearest-zero form; requantize scores are in \S\ref{sec:quant}. The 4-bit 9B $p$ values are exact two-sided McNemar tests on the listed discordant pairs. A second 400-step 27B run deleted 0.6049\% and also scored 65; we use run 1 because it reaches the same score with fewer deletions (28,730,353 of 5,704,253,440 weights, 57.2\,MB).}
 \label{tab:toolalpaca}
 \end{table}
 
