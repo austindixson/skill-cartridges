@@ -16,7 +16,7 @@ keywords:
   - language models
   - mlx
 references:
-  - type: article
+  - type: conference-paper
     title: "The Surprising Effectiveness of Deleting Weights in LLM Post-Training"
     authors:
       - family-names: Lu
@@ -32,6 +32,7 @@ references:
       - family-names: Ren
         given-names: Mengye
     year: 2026
+    collection-title: "Advances in Neural Information Processing Systems (NeurIPS)"
     identifiers:
       - type: other
         value: "arXiv:2611.10866"

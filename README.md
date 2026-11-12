@@ -14,7 +14,7 @@ written; the mask only deletes.
 
 The training method is **Deletion Tuning** by Jack Lu, Zhenbang Yang, Mike Lasby, Tejas Pote, Yani Ioannou and
 Mengye Ren, *The Surprising Effectiveness of Deleting Weights in LLM Post-Training*
-([arXiv:2611.10866](https://arxiv.org/abs/2611.10866), code:
+(NeurIPS 2026, [arXiv:2611.10866](https://arxiv.org/abs/2611.10866), code:
 [agentic-learning-ai-lab/deleting-weights](https://github.com/agentic-learning-ai-lab/deleting-weights), MIT).
 The objective, sigmoid relaxation and sharpness schedule, Wanda initialization, regularizer, mask file format and the
 ToolAlpaca/Science settings are theirs. So is the idea of combining masks by union, which they proposed as future work.
@@ -154,10 +154,11 @@ flash-linear-attention 0.6.0, one RTX PRO 6000 (96 GB) on Hugging Face Jobs (two
   url    = {https://github.com/austindixson/skill-cartridges}
 }
 
-@article{lu2026deleting,
-  title   = {The Surprising Effectiveness of Deleting Weights in {LLM} Post-Training},
-  author  = {Lu, Jack and Yang, Zhenbang and Lasby, Mike and Pote, Tejas and Ioannou, Yani and Ren, Mengye},
-  journal = {arXiv preprint arXiv:2611.10866},
-  year    = {2026}
+@inproceedings{lu2026deleting,
+  title     = {The Surprising Effectiveness of Deleting Weights in {LLM} Post-Training},
+  author    = {Lu, Jack and Yang, Zhenbang and Lasby, Mike and Pote, Tejas and Ioannou, Yani and Ren, Mengye},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026},
+  note      = {arXiv:2611.10866}
 }
 ```
